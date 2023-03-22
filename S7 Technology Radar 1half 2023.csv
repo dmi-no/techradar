@@ -16,7 +16,7 @@ NextJS;Trial;Languages&Frameworks;ИСТИНА;
 Angular;Adopt;Languages&Frameworks;ЛОЖЬ;
 Vue.JS;Adopt;Languages&Frameworks;ЛОЖЬ;<p>JavaScript-фрейворк с более низким порогом входа, чем React. По мере развития компетенций внутри ПГК S7, технология может быть переведна в Adopt.</p>
 PHP;Hold;Languages&Frameworks;ЛОЖЬ;<p>Язык, имеющий достатчно узкую специализацию - разработка веб-приложений. Стартовать разработку новых решений с его использованием нецелесообразно.</p>
-Windows Server;Hold;Infrastructure&Tools;ЛОЖЬ;<p>Операционная система, которую нецелесообразно использовать, кроме случаев, когда её установка требуется для 'коробочного' решения.</p>
+Windows Server;Hold;Infrastructure&Tools;ЛОЖЬ;<p>Операционная система, которую нецелесообразно использовать, кроме случаев, когда её установка требуется для коробочного решения.</p>
 Prometheus;Adopt;Infrastructure&Tools;ЛОЖЬ;
 Ansible;Adopt;Infrastructure&Tools;ЛОЖЬ;
 Terraform;Adopt;Infrastructure&Tools;ЛОЖЬ;
