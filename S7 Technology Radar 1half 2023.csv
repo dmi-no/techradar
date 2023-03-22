@@ -6,7 +6,6 @@ Kotlin;Hold;Languages&Frameworks;ЛОЖЬ;<p>JVM-совместимый перс
 Kotlin (Android);Adopt;Languages&Frameworks;ЛОЖЬ;<p>Язык для нативной разработки под Android, рекомендованный Google как приоритетный.</p>
 Swift (iOS);Adopt;Languages&Frameworks;ЛОЖЬ;<p>Стандартный язык для нативной разработки под iOS.</p>
 Golang;Assess;Languages&Frameworks;ЛОЖЬ;<p>Компилируемый многопоточный язык со строгой статической типизацией, разработанный в компании Google. В компании есть несколько запущенных решений написанных на этом языке, но текущий объем компетенции не позволяет перевести язык в кольцо Adopt.</p>
-Camel-K;Assess;Languages&Frameworks;ЛОЖЬ;"<p>Java-фреймворк, реализующий <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, но .</p>"
 Java 8, 11;Hold;Languages&Frameworks;ЛОЖЬ;<p>Версия 8 не поддерживается. Разработкак должна осуществляться на версиях 11 и выше.</p>
 .Net;Hold;Languages&Frameworks;ЛОЖЬ;<p>Несмотря на высокую популярность .Net-проектов, в компании сделан выбор в пользу других языков - Java, Python, Kotlin, Golang, Scala.</p>
 Scala;Trial;Languages&Frameworks;ЛОЖЬ;<p>Мультипарадигменный JVM-язык, поддерживающий концепции функционального программирования.</p>
