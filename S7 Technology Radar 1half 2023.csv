@@ -1,7 +1,7 @@
 ﻿name;ring;quadrant;isNew;description
 Python 3;Adopt;Languages&Frameworks;ЛОЖЬ;<p>Основной скриптовый язык, используемый в компании</p>
 Java 17+;Adopt;Languages&Frameworks;ЛОЖЬ;<p>Основной ООП-язык, используемый в компании. Необходимо использовать текущую LTS-версию или выше. </p>
-Camel;Adopt;Languages&Frameworks;ЛОЖЬ;"<p>Java-фреймворк, реализующий <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, описанные Gregor Hohpe ещё в 2003-м.</p>"
+Camel;Adopt;Languages&Frameworks;ЛОЖЬ;<p>Java-фреймворк, реализующий <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, описанные Gregor Hohpe ещё в 2003-м.</p>
 Kotlin;Hold;Languages&Frameworks;ЛОЖЬ;<p>JVM-совместимый перспективный ООП-язык от компании JetBrains. </p>
 Kotlin (Android);Adopt;Languages&Frameworks;ЛОЖЬ;<p>Язык для нативной разработки под Android, рекомендованный Google как приоритетный.</p>
 Swift (iOS);Adopt;Languages&Frameworks;ЛОЖЬ;<p>Стандартный язык для нативной разработки под iOS.</p>
