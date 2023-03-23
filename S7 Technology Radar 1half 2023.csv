@@ -1,6 +1,6 @@
 name,ring,quadrant,isNew,description
 Python 3,Adopt,Languages&Frameworks,false,<p>Žñíîâíîé ñêðèïòîâûé ßçûê èñïîëüçóåìûé â êîìïàíèè</p>
-Java 17+,Adopt,Languages&Frameworks,false,<p>Žñíîâíîé ŽŽ-ßçûê, èñïîëüçóåìûé â êîìïàíèè. åîáõîäèìî èñïîëüçîâàòü òåêóùóþ LTS-âåðñèþ èëè âûøå. </p>
+Java 17+,Adopt,Languages&Frameworks,false,"<p>Žñíîâíîé ŽŽ-ßçûê èñïîëüçóåìûé â êîìïàíèè. åîáõîäèìî èñïîëüçîâàòü òåêóùóþ LTS-âåðñèþ èëè âûøå. </p>"
 Camel,Adopt,Languages&Frameworks,false,"<p>Java-ôðåéìâîðê, ðåàëèçóþùèé <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, îïèñàííûå Gregor Hohpe åùÞ â 2003-ì.</p>"
 Kotlin,Hold,Languages&Frameworks,false,<p>JVM-ñîâìåñòèìûé ïåðñïåêòèâíûé ŽŽ-ßçûê îò êîìïàíèè JetBrains. </p>
 Kotlin (Android),Adopt,Languages&Frameworks,false,<p>Ÿçûê äëß íàòèâíîé ðàçðàáîòêè ïîä Android, ðåêîìåíäîâàííûé Google êàê ïðèîðèòåòíûé.</p>
