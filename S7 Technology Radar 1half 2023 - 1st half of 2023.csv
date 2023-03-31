@@ -16,7 +16,6 @@ React,Adopt,Languages&Frameworks,FALSE,<p>JavaScript-фрейворк для п�
 NextJS,Trial,Languages&Frameworks,TRUE,<p>JavaScript-фрейворк для приложений с любым профилем нагрузки.</p>
 Angular,Adopt,Languages&Frameworks,FALSE,
 Vue.JS,Adopt,Languages&Frameworks,FALSE,"<p>JavaScript-фрейворк с более низким порогом входа, чем React.</p>"
-PHP,Hold,Languages&Frameworks,FALSE,"<p>Язык, имеющий достатчно узкую специализацию - разработка веб-приложений. Стартовать разработку новых решений с его использованием нецелесообразно.</p>"
 Windows Server,Hold,Infrastructure&Tools,FALSE,"<p>Операционная система, которую нецелесообразно использовать, кроме случаев, когда её установка требуется для ""коробочного"" решения.</p>"
 Prometheus,Adopt,Infrastructure&Tools,FALSE,
 Ansible,Adopt,Infrastructure&Tools,FALSE,
