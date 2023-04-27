@@ -1,0 +1,56 @@
+name,ring,quadrant,isNew,description
+Python 3,Adopt,Languages&Frameworks,FALSE,"<p>Основной скриптовый язык, используемый в компании</p>"
+Java 17+,Adopt,Languages&Frameworks,FALSE,"<p>Основной ООП-язык, используемый в компании. Необходимо использовать текущую LTS-версию или выше. </p>"
+Camel,Adopt,Languages&Frameworks,FALSE,"<p>Java-фреймворк, реализующий <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, описанные Gregor Hohpe ещё в 2003-м.</p>"
+Kotlin (Android),Adopt,Languages&Frameworks,FALSE,"<p>Язык для нативной разработки под Android, рекомендованный Google как приоритетный.</p>"
+Swift (iOS),Adopt,Languages&Frameworks,FALSE,<p>Стандартный язык для нативной разработки под iOS.</p>
+Spring Boot,Adopt,Languages&Frameworks,FALSE,"<p>Основной фрейворк в Java-мире разработки, позволяющий вести быструю разработку корпоративных приложений.</p>"
+React,Adopt,Languages&Frameworks,FALSE,<p>JavaScript-фрейворк для приложений с любым профилем нагрузки.</p>
+Angular,Adopt,Languages&Frameworks,FALSE,
+Vue.JS,Adopt,Languages&Frameworks,FALSE,"<p>JavaScript-фрейворк с более низким порогом входа, чем React.</p>"
+Node.JS ,Trial,Languages&Frameworks,FALSE,"<p>Фрейворк, позволяющий использовать JavaScript для бэкенд-приложений.</p>"
+Scala,Trial,Languages&Frameworks,FALSE,"<p>Мультипарадигменный JVM-язык, поддерживающий концепции функционального программирования.</p>"
+NextJS,Trial,Languages&Frameworks,TRUE,<p>JavaScript-фрейворк для приложений с любым профилем нагрузки.</p>
+Golang,Assess,Languages&Frameworks,FALSE,"<p>Компилируемый многопоточный язык со строгой статической типизацией, разработанный в компании Google. В компании есть несколько запущенных решений написанных на этом языке, но текущий объем компетенции не позволяет перевести язык в кольцо Adopt.</p>"
+Camel-K,Assess,Languages&Frameworks,FALSE,"<p>Java-фреймворк, реализующий <a href=""https://www.enterpriseintegrationpatterns.com/"">Enterprise Integration Patterns</a>, но .</p>"
+"Java 8, 11",Hold,Languages&Frameworks,FALSE,<p>Версия 8 не поддерживается. Разработкак должна осуществляться на версиях 11 и выше.</p>
+.Net,Hold,Languages&Frameworks,FALSE,"<p>Несмотря на высокую популярность .Net-проектов, в компании сделан выбор в пользу других языков - Java, Python, Kotlin, Golang, Scala.</p>"
+Kotlin,Hold,Languages&Frameworks,TRUE,<p>JVM-совместимый перспективный ООП-язык от компании JetBrains. </p>
+PHP,Hold,Languages&Frameworks,FALSE,"<p>Язык, имеющий достатчно узкую специализацию - разработка веб-приложений. Стартовать разработку новых решений с его использованием нецелесообразно.</p>"
+Prometheus,Adopt,Tools,FALSE,
+Ansible,Adopt,Tools,FALSE,
+Terraform,Adopt,Tools,FALSE,
+Gitlab CI,Adopt,Tools,FALSE,
+Helm 3,Adopt,Tools,FALSE,
+Oracle Linux,Adopt,Tools,FALSE,
+CentOS,Adopt,Tools,FALSE,
+Windows Server,Hold,Tools,FALSE,"<p>Операционная система, которую нецелесообразно использовать, кроме случаев, когда её установка требуется для ""коробочного"" решения.</p>"
+Kubernetes (см. Container-as a Service),Hold,Tools,FALSE,Развертывание отдельных инстансов нецелесообразно. Следует использовать Container-as-a-Service.
+CoreOS,Hold,Tools,FALSE,
+ScyllaDB,Trial,Techniques,FALSE,
+Kafka (см. Kafka-as a Service),Hold,Techniques,FALSE,Развертывание отдельных кластеров только по согласованию с Диеркторатом архитекутры ИТ. Для межпродуктовой и внутрипродуктовой интеграции следует использовать Enterprise Data Bus.
+Vertica DB Community Edition,Adopt,Techniques,FALSE,
+Greenplum,Assess,Techniques,TRUE,Оценивается для использования основной технологии для корпоративного хранилища данных
+PostgreSQL (см. Database-as a Service),Hold,Techniques,FALSE,Развертывание отдельных баз данных собственными силами нецелесообразно. Следует использовать DB-as-a-Service.
+Tableau,Adopt,Techniques,FALSE,
+Clickhouse,Adopt,Techniques,FALSE,
+Kafka-Streams,Trial,Techniques,FALSE,
+Kafka Connect,Adopt,Techniques,FALSE,
+Debezium,Adopt,Techniques,FALSE,
+ksqlDB,Trial,Techniques,FALSE,
+Apache Superset,Assess,Techniques,FALSE,
+Oracle DB,Hold,Techniques,FALSE,
+Apache Airflow,Adopt,Techniques,FALSE,
+Apache Spark,Adopt,Techniques,FALSE,
+Microsoft SQL Server,Hold,Techniques,FALSE,
+Redis,Adopt,Techniques,TRUE,Key-Value хранилище.
+ElasticSearch 7+,Adopt,Techniques,FALSE,
+Storage-as a Service (S3 v4 compatible),Adopt,Platforms,FALSE,"Сервис корпоративной облачной платформы, предоставляющий объектное хранилище S3 как услугу. "
+Container-as a Service (k8s compatible),Adopt,Platforms,FALSE,"Сервис корпоративной облачной платформы, предоставляющий платформу контейнеризации как услугу. "
+Key Value-as a Service (Cassandra compatible),Hold,Platforms,FALSE,"Сервис корпоративной облачной платформы, предоставляющий нереляционную базу данных ScyllaDB как услугу. "
+Database-as a Service,Adopt,Platforms,FALSE,"Сервис корпоративной облачной платформы, предоставляющий реляционную базу данных PostgreSQL как услугу. "
+Kafka-as a Service,Assess,Platforms,FALSE,"Сервис корпоративной облачной платформы, предоставляющий кластер Kafka (Managed Kafka Cluster) как услугу. Кластера Kafka выделяются только по согласованию с Директоратом архитектуры ИТ"
+Data-as a Service,Adopt,Platforms,FALSE,
+Enterprise Data Bus,Trial,Platforms,FALSE,"Сервис, предоставляющий топики Kafka как услугу. "
+Enterprise Integration Platform,Adopt,Platforms,FALSE,"Корпоративная платформа, предоставляющая стандартизованный набор интеграционных коннекторов и сервисов."
+EOS xM,Assess,Platforms,FALSE,Корпоративная платформа по сбору метрик и логов.
